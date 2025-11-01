@@ -3,31 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Aaron Mitchell Portfolio</title>
+  <title>Aaron Pereira | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <h1>Aaron Pereira</h1>
-    <p>Software Developer & Aspiring Data Engineer</p>
-    <nav>
-      <a href="index.html">Home</a> |
-      <a href="lap-tracker.html">C# Lap Tracker</a> |
-      <a href="f1-dashboard.html">F1 Power BI</a> |
-      <a href="resume.html">Resume</a>
-    </nav>
+    <div class="container">
+      <h1>Aaron Pereira</h1>
+      <p class="subtitle">Software Developer & Aspiring Data Engineer</p>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
-  <main>
-    <h2>About Me</h2>
-    <p>Recent Computer Science (Honours) graduate focused on .NET, C#, SQL, Power BI, and data engineering. This portfolio showcases projects and skills in software development and data analytics.</p>
-    <h2>Projects</h2>
-    <ul>
-      <li><a href="lap-tracker.html">C# Lap Tracker Web App</a></li>
-      <li><a href="f1-dashboard.html">F1 Power BI Dashboard</a></li>
-    </ul>
-  </main>
-  <footer>
-    <p>Contact: aaron.m.pereira@gmail.com</p>
-  </footer>
-</body>
-</html>
+
+  <main class="container">
+    <!-- About -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Computing Science (Honours) graduate with strong experience in full-stack software development, database management, and API integration. Skilled in ASP.NET Core, Blazor, SQL, and Entity Framework, with a solid understanding of software engineering principles and cloud-based solutions. Passionate about technology, continuous learning, and building software that solves real-world problems.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Key Skills</h2>
+      <ul class="skills-list">
+        <li>C# / .NET Core Development</li>
+        <li>Blazor & ASP.NET MVC</li>
+        <li>Entity Framework Core & LINQ</li>
+        <li>SQL & Database Design</li>
+        <li>Asynchronous Programming</li>
+        <li>API Integration</li>
+        <li>Debugging & Performance Tuning</li>
+        <li>Collaboration & Agile Practices</li>
+      </ul>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <div class="job">
+        <h3>Software Developer (Contract) | EYB Solutions</h3>
+        <p class="date">Feb 2025 – Jul 2025</p>
+        <ul>
+          <li>Developed and maintained web applications using ASP.NET Core framework</li>
+          <li>Designed and implemented user interfaces with Blazor and MVC pattern</li>
+          <li>Improved application performance with asynchronous programming</li>
+          <li>Utilized Entity Framework for database interactions</li>
+          <li>Integrated third-party APIs to enhance functionality</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h3>Projects Implementation | ThankQ Solutions</h3>
+        <p class="date">Jan 2022 – Mar 2024</p>
+        <ul>
+          <li>Collaborated with cross-functional teams to gather client requirements</li>
+          <li>Assisted in software development tasks and quality assurance testing</li>
+          <li>Delivered client support via ticketing systems</li>
+          <li>Developed custom dashboards and SQL scripts</li>
+          <li>Supported campaign management and payment processing including secure web iframes</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>C# Lap Tracker Web App</h3>
+        <p>Web application built with C#, .NET, and SQL to track lap times, analyze driver performance, and implement ETL pipelines for race data.</p>
+        <a href="lap-tracker.html" class="btn">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>F1 Power BI Dashboard</h3>
+        <p>Interactive dashboard analyzing F1 race data, demonstrating data modeling, DAX measures, and visual insights.</p>
